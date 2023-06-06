@@ -1,5 +1,7 @@
 * {
     font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -20,6 +22,7 @@ body {
 
 .logo {
     left: 125px;
+    margin-top: 10px;
     top: 5px;
 }
 
@@ -36,7 +39,7 @@ body {
     padding: 10px 20px;
     border-radius: 71px;
     height: 22px;
-    margin-top: 34px;
+    margin-top: 43px;
 }
 
 .login-button a {
@@ -51,7 +54,7 @@ nav {
 
 .navbar ul {
     list-style-type: none;
-    padding: 12px 0;
+    padding: 25px 0;
     display: flex;
     font-size: 13px;
     margin-left: 128px;
@@ -95,7 +98,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .logo-container img {
@@ -113,14 +116,81 @@ nav {
 .image-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 82px;
+    margin-top: 103px;
     margin-right: 128px;
     margin-left: 128px;
 }
 
-.image-container img {
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-wrapper img {
     max-width: 326px;
     height: auto;
     margin: 0 10px;
     border-radius: 5px;
+}
+
+.image-wrapper p {
+    margin-top: 14px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.image-wrapper a {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 10px 10px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.image-wrapper a img {
+    margin-left: 8px;
+    max-width: 20px;
+    height: auto;
+}
+
+.footer {
+    background-color: #091747;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 113px;
+    height: 270px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-middle {
+    margin-bottom: 10px;
+}
+
+.footer-divider {
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom p {
+    margin: 0 10px;
+    text-decoration: underline;
 }
