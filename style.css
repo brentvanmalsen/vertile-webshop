@@ -175,19 +175,23 @@ nav {
 }
 
 .footer-middle {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 64px;
+    font-size: 14px;
 }
 
 .footer-divider {
-    width: 100px;
+    width: 425px;
     height: 1px;
-    background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 55px;
+    background-color: #504C4C;
 }
 
 .footer-bottom {
     display: flex;
     justify-content: center;
+    gap: 27px;
+    font-size: 14px;
 }
 
 .footer-bottom p {
