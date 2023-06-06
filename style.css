@@ -44,6 +44,11 @@ body {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar ul {
     list-style-type: none;
     padding: 12px 0;
@@ -70,4 +75,52 @@ body {
 
 .blue_underline {
     border-bottom: solid #1345F8 3px !important;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 151px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 128px;
+    margin-bottom: 18px;
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.logo-container img {
+    max-width: 310px;
+    height: auto;
+}
+
+.logo-container .logo-text {
+    color: #fff;
+    font-size: 18px;
+    margin-top: -6px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+    margin-right: 128px;
+    margin-left: 128px;
+}
+
+.image-container img {
+    max-width: 326px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 5px;
 }
