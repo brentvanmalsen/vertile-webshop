@@ -198,3 +198,29 @@ nav {
     margin: 0 10px;
     text-decoration: underline;
 }
+
+.footer-product {
+    background-color: #091747;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 113px;
+    height: 270px;
+    position: relative;
+    top: 76px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87px;
+    /* Pas dit aan aan je behoeften */
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    /* Pas de kleur aan naar jouw wens */
+}
